@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    tty-color (0.6.0)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  pastel
+
+BUNDLED WITH
+   2.4.21
