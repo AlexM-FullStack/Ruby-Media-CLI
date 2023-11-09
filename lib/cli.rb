@@ -133,15 +133,6 @@ class CLI
 
         if save_choice == 'yes'
           save_media(index, Movie.all)
-        else
-          puts "Do you want to go back to the main menu? (yes/no)"
-          back_to_menu_choice = gets.strip.downcase
-          if back_to_menu_choice == 'yes'
-            main_menu
-          else
-            puts " ==== "
-            puts @pastel.red.bold("Goodbye!")
-          end
         end
       else
         puts " "
@@ -184,15 +175,6 @@ class CLI
 
         if save_choice == 'yes'
           save_media(index, TVShow.all)
-        else
-          puts "Do you want to go back to the main menu? (yes/no)"
-          back_to_menu_choice = gets.strip.downcase
-          if back_to_menu_choice == 'yes'
-            main_menu
-          else
-            puts "========="
-            puts @pastel.red.bold('Goodbye!')
-          end
         end
       end
     end
